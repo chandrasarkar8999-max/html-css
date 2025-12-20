@@ -1,0 +1,13 @@
+h1 {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+  background-color: aqua;
+  border: 2px solid black;
+}
+p {
+  font-family: cursive;
+  line-height: 3;
+  font-size: 20px;
+  margin: 100px;
+}

@@ -1,0 +1,51 @@
+🔹 Basic Level
+
+1. Create a div with position: relative; and put another div inside it with position: absolute; top: 20px; left: 20px;.
+👉 Where will the inner div appear?
+
+2. Make a header fixed at the top of the page (position: fixed; top: 0; width: 100%;).
+👉 What happens when you scroll the page?
+
+3. Place three divs one after another. Set the second one to position: sticky; top: 10px;.
+👉 What happens when you scroll?
+
+🔹 Intermediate
+
+4. You have four small boxes inside a parent container. Set the parent to position: relative;.
+
+Place each child with position: absolute; at different corners (top-left, top-right, bottom-left, bottom-right).
+👉 Which CSS properties will you use?
+
+5. Create an image gallery with small images. Make one image position: absolute; z-index: 2; overlapping another.
+👉 Which image will be visible on top?
+
+🔹 Basic Practice
+
+6. Create two divs and use float: left; to place them side by side.
+👉 What happens if you don’t set a width for them?
+
+7. Place an image inside a paragraph and use float: right;.
+👉 Does the text wrap around the image?
+
+8. Make three boxes: red, green, blue. Float all to the left.
+👉 What layout do you get?
+
+🔹 Clear Property
+
+9. Add two floated boxes (float: left;) and below them add another box.
+👉 What happens if you don’t use clear? What if you use clear: both;?
+
+10. Float one box left, another right, then add a footer.
+👉 How do you keep the footer below both?
+
+🔹 Overflow Property
+
+11. Create a parent div with a fixed height and add a child box floated inside.
+👉 What happens if you don’t set overflow on the parent?
+
+12. Apply overflow: hidden; to the parent.
+👉 Does the parent now contain the floated child?
+
+13. Add too much text inside a small container.
+👉 Try overflow: scroll;, overflow: hidden;, and overflow: auto; — what differences do you see?
+

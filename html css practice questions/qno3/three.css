@@ -1,0 +1,21 @@
+body {
+  line-height: 3.5;
+  background-color: antiquewhite;
+}
+.box1 {
+  background-color: rgb(55, 55, 90);
+}
+.box2 {
+  background-color: rgb(10, 221, 116);
+  position: sticky;
+  top: 10px;
+  width: 100px;
+  height: 100px;
+}
+.box3 {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  margin: 300px;
+  position: static;
+}

@@ -1,0 +1,13 @@
+.box {
+  height: 200px;
+  background-color: aquamarine;
+  float: left;
+  border: 2px solid black;
+  margin: 4px;
+}
+.with-width {
+  width: 50px;
+}
+.without-width {
+  width: 0px;
+}

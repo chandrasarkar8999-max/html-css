@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.one {
+  position: relative;
+  width: 450px;
+  height: 3700px;
+  border: 1px solid black;
+  background-color: aquamarine;
+  margin: 260px;
+  padding: 10px;
+}
+.two {
+  position: static;
+  border: 5px solid black;
+  background-color: darkblue;
+  width: 150px;
+  height: 150px;
+  top: 100px;
+  left: 150px;
+}

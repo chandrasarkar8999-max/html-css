@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  float: left;
+  color: rgb(31, 36, 32);
+  font-size: 30px;
+  text-align: center;
+  line-height: 200px;
+  margin: 7px;
+}
+
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: rgb(68, 68, 194);
+}
+
+.red {
+  background-color: aqua;
+}

@@ -1,0 +1,20 @@
+/* Create a parent div with a fixed height and add a child box floated inside.
+👉 What happens if you don’t set overflow on the parent? */
+body {
+  box-sizing: border-box;
+}
+.parent {
+  height: 200px;
+  width: 400px;
+  border: 2px solid black;
+  text-align: center;
+  background-color: aquamarine;
+  font-size: 2pc;
+  overflow: hidden;
+}
+.child {
+  float: left;
+  background-color: rgb(185, 121, 121);
+  width: 100px;
+  height: 100px;
+}

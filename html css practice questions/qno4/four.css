@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(207, 40, 40);
+}
+.parent {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  background-color: lightblue;
+  margin: 50px auto;
+  border: 2px solid navy;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgb(197, 27, 189);
+  height: 100px;
+  width: 100px;
+}
+
+.top-right {
+  top: 0;
+  right: 0px;
+  position: absolute;
+  background-color: rgb(18, 175, 31);
+  height: 100px;
+  width: 100px;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgb(131, 87, 235);
+  height: 100px;
+  width: 100px;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-color: rgb(177, 101, 14);
+  height: 100px;
+  width: 100px;
+}

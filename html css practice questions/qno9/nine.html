@@ -1,0 +1,48 @@
+<!-- Add two floated boxes (float: left;) and below them add another box.
+👉 What happens if you don’t use clear? What if you use clear: both;?
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float and Clear Example</title>
+    <style>
+      /* Floated boxes */
+      .box1,
+      .box2 {
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin: 10px;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold;
+      }
+
+      /* Box below floated boxes */
+      .box3 {
+        width: 100%;
+        height: 100px;
+        background-color: lightgreen;
+        text-align: center;
+        line-height: 100px;
+        font-weight: bold;
+        /* Uncomment the next line to see the effect of clear */
+        clear: both;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">Box 1</div>
+    <div class="box2">Box 2</div>
+    <div class="box3">Box 3</div>
+
+    <p>Observe Box 3 behavior with and without <code>clear: both;</code></p>
+  </body>
+</html>

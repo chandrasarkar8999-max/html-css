@@ -1,0 +1,19 @@
+.box {
+  background-color: antiquewhite;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-family: sans-serif;
+}
+.one {
+  float: right;
+  background-color: brown;
+}
+.two {
+  float: right;
+  background-color: aquamarine;
+}
+.three {
+  background-color: rgb(165, 75, 10);
+}

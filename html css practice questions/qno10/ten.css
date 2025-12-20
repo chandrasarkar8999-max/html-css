@@ -1,0 +1,23 @@
+.box {
+  margin: 50px;
+  background-color: rgb(78, 218, 218);
+  text-align: center;
+  width: 150px;
+  height: 150px;
+  font-size: 5vh;
+}
+.left {
+  float: left;
+  background-color: blueviolet;
+}
+.right {
+  float: right;
+  background-color: burlywood;
+}
+.footer {
+  background-color: black;
+  height: 100px;
+  color: azure;
+  text-align: center;
+  clear: both;
+}
