@@ -1,0 +1,19 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(102, 102, 148);
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    transition: all 0.5s ease;
+}
+.box:hover{
+    /* transform: rotate(360DEG) scale(2); */
+    background-color: rgb(148, 102, 102);
+    transform: translate(500PX,400PX)  scale(0.5);
+}
+p{
+    font-size: 30px;
+}
